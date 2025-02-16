@@ -26,6 +26,7 @@ from apache_beam import (
     io,
     ParDo,
     Pipeline,
+    GoogleCloudOptions,
     WindowInto,
 )
 from apache_beam.error import PipelineError
